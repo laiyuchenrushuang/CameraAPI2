@@ -85,7 +85,6 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 takePicture();
-                takePreview();
             }
         });
         mCapture.setOnLongClickListener(new View.OnLongClickListener() {
